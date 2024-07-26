@@ -1,0 +1,127 @@
+/* General Navbar styles */
+.navbar {
+    background: #008080;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    left: -20;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .nav-item {
+    height: 80px;
+  }
+  
+  .nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .nav-links:hover {
+    border-bottom: 3px solid #01bf71;
+    color: #000;
+  }
+  
+  /* Mobile Menu */
+  @media screen and (max-width: 960px) {
+    .navbar-container {
+      padding: 0 20px;
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #fff;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      height: 50vh;
+      position: absolute;
+      top: 49px;
+      left: -50%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #008080;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      left: 0;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-item {
+      height: 60px;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      border: none;
+      color: #000;
+    }
+  }
+  @media (max-width: 667px) {
+    .navbar{
+      left: -62px;
+    }
+  }
+  
