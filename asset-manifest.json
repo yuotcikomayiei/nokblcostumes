@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nokblcostumes/static/css/main.2046f0d1.css",
+    "main.js": "/nokblcostumes/static/js/main.e84d8f8c.js",
+    "static/js/453.80304955.chunk.js": "/nokblcostumes/static/js/453.80304955.chunk.js",
+    "static/media/vision.png": "/nokblcostumes/static/media/vision.391a88e67dff623ddaf6.png",
+    "static/media/about-us.png": "/nokblcostumes/static/media/about-us.28a093046aaaf6e29d03.png",
+    "static/media/mission.png": "/nokblcostumes/static/media/mission.b29201a0867126d178e4.png",
+    "static/media/image.jpg": "/nokblcostumes/static/media/image.ef89da2ef5cf4004bada.jpg",
+    "static/media/airbnb.png": "/nokblcostumes/static/media/airbnb.6572aedfe675ad2a300a.png",
+    "static/media/kkt.png": "/nokblcostumes/static/media/kkt.2579f4c595ef9f737834.png",
+    "static/media/vi.png": "/nokblcostumes/static/media/vi.8d10005ed764a74e8574.png",
+    "index.html": "/nokblcostumes/index.html",
+    "main.2046f0d1.css.map": "/nokblcostumes/static/css/main.2046f0d1.css.map",
+    "main.e84d8f8c.js.map": "/nokblcostumes/static/js/main.e84d8f8c.js.map",
+    "453.80304955.chunk.js.map": "/nokblcostumes/static/js/453.80304955.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2046f0d1.css",
+    "static/js/main.e84d8f8c.js"
+  ]
+}
