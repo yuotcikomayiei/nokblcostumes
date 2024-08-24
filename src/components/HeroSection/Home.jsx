@@ -10,7 +10,7 @@ const Home = () => {
         <div className="hero-text">
           <h1>Welcome to Nok B&L Costumes</h1>
           <p>Discover the finest costumes for every occasion. Explore our wide range and find your perfect fit today!</p>
-          <a href="/service" className="cta-button">Explore Our Services</a>
+          <a href="/services" className="cta-button">Explore Our Services</a>
         </div>
       </section>
 
